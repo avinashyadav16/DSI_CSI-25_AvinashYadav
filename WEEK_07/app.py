@@ -67,7 +67,7 @@ def load_and_process_data():
     """Loading and preprocessing the training data"""
     try:
         # Loading data
-        train_df = pd.read_csv('train.csv')
+        train_df = pd.read_csv("WEEK_07/train.csv")
 
         # Handling missing values
         def handle_missing_values(df):
